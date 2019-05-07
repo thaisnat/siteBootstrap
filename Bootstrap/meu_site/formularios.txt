@@ -1,0 +1,34 @@
+Formulários
+
+Para enviar um arquivo de imagem
+<input type="file" class="form-control" name="">
+
+Seleção de opções
+<div class="form-group">
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+
+Sempre agrupar os forms com <div class="form-group">
+
+Alterar o tamanho do forms
+grande form-control-lg
+pequeno form-control-sm
+
+Para dividir em colunas
+ <div class="col">
+
+Para adicionar barrinhas de volume
+<input type="range" class="form-control-range">
+
+Para adicionar caixinha de marcação                
+<input type="checkbox" class="form-check-input">
+<label>Clique aqui</label>
+
+Para desailitar : desabled
+Para deixar inicialmente marcada : checked
+
+

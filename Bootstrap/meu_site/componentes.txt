@@ -1,0 +1,50 @@
+Componentes
+
+Alertas
+<div class="alert alert-info">
+            Hello World
+        </div>
+        <div class="alert alert-success">
+            O programa foi executado com sucesso.
+        </div>
+        <div class="alert alert-warning">
+            Possivel problema detectado. <a href="#" class="alert-link">Clique aqui para saber mais.</a>
+        </div>
+
+Botões
+<button class="btn btn-primary">Clique aqui</button>
+<button class="btn btn-secondary">Clique aqui</button>
+<button class="btn btn-success">Clique aqui</button>
+<button class="btn btn-danger">Clique aqui</button>
+<button class="btn btn-warning">Clique aqui</button>
+<button class="btn btn-info">Clique aqui</button>
+<button class="btn btn-light">Clique aqui</button>
+<button class="btn btn-dark">Clique aqui</button>
+
+
+Se utilizar link ou input o formato fica o mesmo que de um botão
+
+<a href="#" class="btn btn-secondary">Clique aqui</a>
+<input type="submit" class="btn btn-success" value="Clique aqui">
+
+NEste design o botão so é colorido quando o mouse passar por cima
+
+<button class="btn btn-outline-primary">Clique aqui</button>
+<a href="#" class="btn btn-outline-secondary">Clique aqui</a>
+<input type="submit" class="btn btn-outline-success" value="Clique aqui">
+
+Botão de diferentes tamanhos
+
+<button class="btn btn-info btn-lg">Clique aqui</button>
+        <button class="btn btn-info">Clique aqui</button>
+        <button class="btn btn-info btn-sm">Clique aqui</button>
+
+Botão que ocupa uma linha inteira (diferentes tamanhos)
+
+<button class="btn btn-primary btn-block btn-sm">Clique aqui</button>
+<button class="btn btn-primary btn-block">Clique aqui</button>
+<button class="btn btn-primary btn-block btn-lg">Clique aqui</button>
+
+Para desabilitar botoes : disabled
+<button class="btn btn-primary btn-block" disabled>Clique aqui</button>
+

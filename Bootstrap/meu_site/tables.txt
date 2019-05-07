@@ -1,0 +1,15 @@
+Tables
+Cores das tabelas
+<tr class="table-active">
+<tr class="table-primary">
+<tr class="table-secondary">
+<tr class="table-success"> // verde (sucesso) 
+<tr class="table-danger"> // vermelhor (erros)
+<tr class="table-warning"> // laranja (avisos)
+<tr class="table-info"> // azul (informações)
+<tr class="table-light">
+<tr class="table-dark">
+
+Numa tabela dark as cores ficam mais claras
+para forçar a tabela a ficar com a cor mais escura
+<tr class="bg-success">
