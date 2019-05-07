@@ -1,0 +1,41 @@
+Jumbotron e Cards
+
+<hr> para acrescentar uma linha na tela
+
+Para construir cards
+
+<div class="container-fluid">
+        <div class="card">
+            <img src="public/img/1.jpeg" class="card-img-top">
+            <div class="card-body">
+                
+            </div>
+        </div>
+
+As colunas tem que ser no maximo 12 <div class="col-3">
+
+Para fazer uma apresentação com 4 cards basta repetir esse codigo 4 vezes
+
+<div class="col-3">
+   <div class="card">
+       <img src="public/img/1.jpeg" class="card-img-top">
+       <div class="card-body">
+                 <h5 class="card-title">Meu Card 4</h5>
+                  <p class="card-text">Hello, this is my first card.</p>
+                 <a href="#" class="btn btn-primary">Saiba mais</a>
+         </div>
+    </div>
+</div>
+
+Bordas
+alterações dentro da div =  <div class="card border">
+remover a borda completa: border-0
+remover a borda esquerda: border-left-0
+remover a borda direita: border-right-0
+
+Colocar efeito de borda arredondado :: altera a class 
+class="rounded" : pequeno arredondamento
+class"rounded-top" : na parte de cima
+class"rounded-right" class"rounded-left"
+class"rounded-circle"
+

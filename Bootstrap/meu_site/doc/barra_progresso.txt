@@ -1,0 +1,30 @@
+Barras de progresso
+
+ <div class="progress">
+            <div class="progress-bar bg-success" style="width: 75%"></div>
+</div>
+<br><br>
+<div class="progress">
+            <div class="progress-bar bg-primary" style="width: 75%"></div>
+</div>
+<br><br>
+<div class="progress">
+            <div class="progress-bar bg-warning" style="width: 75%"></div>
+</div>
+<br><br>
+<div class="progress">
+            <div class="progress-bar bg-danger" style="width: 75%"></div>
+</div>
+
+Para colocar todas as cores em uma barra apenas basta colocar todas em uma <div class="progress"> e redimensionar o tamanho de cada uma 
+<div class="progress">
+        <div class="progress-bar bg-success" style="width: 15%"></div>
+        <div class="progress-bar bg-primary" style="width: 5%"></div>
+        <div class="progress-bar bg-warning" style="width: 35%"></div>
+        <div class="progress-bar bg-danger" style="width: 45%"></div>
+    </div>
+
+Para colocar listras nas barras basta acrescentar ao class o comando "progress-bar-striped"
+
+Para inserir marcação dentro das barras, colocar entre as div's 
+ <div class="progress-bar bg-success" style="width: 15%">15%</div>

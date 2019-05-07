@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Formulários</title>
+    <title>Componentes</title>
 
     <!-- CSS -->
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
@@ -15,35 +15,68 @@
 
 <body>
 
-    <div class="container">
-        <h1>Formulários</h1>
-
-        <form>
-            <div class="btn-group">
-                <a href="#" class="btn btn-primary active">Link 1</a>
-                <a href="#" class="btn btn-primary">Link 2</a>
-                <a href="#" class="btn btn-primary">Link 3</a>
-            </div>
-
-            <br><br>
-
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Digite um endereço de email">
-                <div class="input-class-append">
-                    <span class="input-group-text">@ccc.ufcg.edu.br</span>
-                </div>
-            </div>
-            <br><br>
-            <div class="input-group">
-                <div class="input-class-prepend">
-                    <span class="input-group-text">R$</span>
-                </div>
-                <input type="text" class="form-control" placeholder="Digite o valor">
-
-            </div>
-        </form>
-
+    <div class="container-fluid">
+        <h1>Jumbotron & Cards</h1>
     </div>
+
+    <div class="jumbotron jumbotron">
+        <div class="container-fluid">
+            <h1 class="display-4">Hello World</h1>
+            <p class="lead">First jumbotron</p>
+            <hr>
+            <p>Clique para saber mais</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                 <div class="card border border-info">
+                     <img src="public/img/1.jpeg" class="card-img-top">
+                     <div class="card-body">
+                        <h5 class="card-title">Meu Card 1</h5>
+                        <p class="card-text">Hello, this is my first card.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="col-3">
+                    <div class="card border border-success">
+                        <img src="public/img/1.jpeg" class="card-img-top">
+                        <div class="card-body">
+                           <h5 class="card-title">Meu Card 2</h5>
+                           <p class="card-text">Hello, this is my first card.</p>
+                           <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                        <div class="card">
+                            <img src="public/img/1.jpeg" class="card-img-top">
+                            <div class="card-body">
+                               <h5 class="card-title">Meu Card 3</h5>
+                               <p class="card-text">Hello, this is my first card.</p>
+                               <a href="#" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                            <div class="card">
+                                <img src="public/img/1.jpeg" class="card-img-top">
+                                <div class="card-body">
+                                   <h5 class="card-title">Meu Card 4</h5>
+                                   <p class="card-text">Hello, this is my first card.</p>
+                                   <a href="#" class="btn btn-primary">Saiba mais</a>
+                                </div>
+                            </div>
+                    </div>
+        </div>
+    </div>
+
     <footer>
         <!-- JS -->
         <script src="public/js/jquery.js"></script>
