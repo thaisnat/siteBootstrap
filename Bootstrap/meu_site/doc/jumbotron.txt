@@ -14,6 +14,7 @@ Para construir cards
 
 As colunas tem que ser no maximo 12 <div class="col-3">
 
+Para colorir o card "bg- (primary,secundary...)
 Para fazer uma apresentação com 4 cards basta repetir esse codigo 4 vezes
 
 <div class="col-3">
@@ -39,3 +40,11 @@ class"rounded-top" : na parte de cima
 class"rounded-right" class"rounded-left"
 class"rounded-circle"
 
+Textos
+
+alinhando à esquerda :: text-left
+    ''      direita :: text-right
+    ''    no centro :: text-center
+
+Para colorir 
+text- (primary,secundary...)

@@ -1,0 +1,7 @@
+Nos botões de voltar e avançar colocar esses codigos que expressam o que fazem 
+voltar ::  <span class="sr-only">Anterior</span>
+
+avançar :: <span class="sr-only">Posterior</span>
+
+Nas imagens, descrever o que está sendo exibido nelas 
+no comando img, o comando alt=""

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Componentes</title>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Collapse</h1>
+
+        <input type="submit" class="btn btn-warning" data-toggle="collapse" data-target="#secreto" value="Mostrar mais">
+
+        <div class="collapse" id="secreto">
+            Mensagem secreta.
+        </div>
+    </div>
+
+    <footer>
+        <!-- JS -->
+        <script src="public/js/jquery.js"></script>
+        <script src="public/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript">
+            $('#conteudoModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var recipient = button.data('nome');
+                var modal = $(this);
+                modal.find('.modal-title').text('Mensagem para ' + recipient);
+                modal.find('.modal-body input').val(recipient);
+            })
+        </script>
+    </footer>
+
+</body>
+
+</html>
